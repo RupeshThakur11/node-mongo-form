@@ -1,0 +1,36 @@
+{
+  "name": "sample-form",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "~1.0.0",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.0.0",
+    "ejs": "^2.4.2",
+    "express": "~4.0.0",
+    "express-session": "~1.0.0",
+    "method-override": "~1.0.0",
+    "mongoose": "~3.8.1",
+    "morgan": "~1.0.0",
+    "passport": "~0.1.17",
+    "passport-local": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "Login/SignUp with Mongo, Express and NodeJS. Shows a modal form on each login until filled.",
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "node-mongo-form"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "user",
+    "authentication"
+  ],
+  "author": "rupesh thakur",
+  "license": "Apache-2.0"
+}
